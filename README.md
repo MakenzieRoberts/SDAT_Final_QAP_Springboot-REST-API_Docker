@@ -58,15 +58,15 @@ Sample JSON:    {
 
 ### **Endpoints**
 
-|              Method                | URI                                              | Query Parameter        |
-| :--------------------------------: | :----------------------------------------------- | :--------------------- |
-| **GET** (All)                      | localhost:8080/video_game                        |                        |
-| **GET** (By ID)                    | localhost:8080/video_game/{id}                   |                        |
-| **GET** (Find by Title)            | localhost:8080/video_game/search/findByTitle     | ?title=\<*String*>     |
-| **GET** (Find by Publisher)        | localhost:8080/video_game/search/findByPublisher | ?title=\<*String*>     |
-| **GET** (Find by Platforms)        | localhost:8080/video_game/search/findByPlatforms | ?title=\<*String[]*>   |
-| **POST**                           | localhost:8080/video_game                        |                        |
-| **PUT**                            | localhost:8080/video_game/{id}                   |                        |
-| **PATCH**                          | localhost:8080/video_game/{id}                   |                        |
-| **DELETE**                         | localhost:8080/video_game/{id}                   |                        |
+|              Method                | URI                                              | Query Parameter          |
+| :--------------------------------: | :----------------------------------------------- | :----------------------- |
+| **GET** (All)                      | localhost:8080/video_game                        |                          |
+| **GET** (By ID)                    | localhost:8080/video_game/{id}                   |                          |
+| **GET** (Find by Title)            | localhost:8080/video_game/search/findByTitle     | ?title=\<*String*>       |
+| **GET** (Find by Publisher)        | localhost:8080/video_game/search/findByPublisher | ?publisher=\<*String*>   |
+| **GET** (Find by Platforms)        | localhost:8080/video_game/search/findByPlatforms | ?platforms=\<*String[]*> |
+| **POST**                           | localhost:8080/video_game                        |                          |
+| **PUT**                            | localhost:8080/video_game/{id}                   |                          |
+| **PATCH**                          | localhost:8080/video_game/{id}                   |                          |
+| **DELETE**                         | localhost:8080/video_game/{id}                   |                          |
 
