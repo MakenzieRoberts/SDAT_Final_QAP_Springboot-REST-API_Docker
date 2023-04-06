@@ -1,7 +1,5 @@
-
-
 <h1>
-  Semester 4 | Software Design Architechture | Final QAP
+  Semester 4 | Software Design Architechture | QAP 2
 </h1>
 
 Design and implementation of a RESTful API for a single resource, employing the RepositoryRestResource design pattern taught in class. Subsequently, the API is subjected to local testing within a Docker container environment.
@@ -28,8 +26,10 @@ Design and implementation of a RESTful API for a single resource, employing the 
   -	Details in the project readme about the new API and how to run project in docker.
   <blockquote>
 </details>
-    
----
+  
+  
+____________________________________________________________________________________________________________________
+
 
 ### **Entity Information**
 
@@ -54,19 +54,20 @@ Sample JSON:    {
                 } 
 -->
 
----
+____________________________________________________________________________________________________________________
+
 
 ### **Endpoints**
 
 |              Method                | URI                                              | Query Parameter          |
 | :--------------------------------: | :----------------------------------------------- | :----------------------- |
-| **GET** (All)                      | localhost:8080/videogame                        |                          |
-| **GET** (By ID)                    | localhost:8080/videogame/{id}                   |                          |
-| **GET** (Find by Title)            | localhost:8080/videogame/search/findByTitle     | ?title=\<*String*>       |
-| **GET** (Find by Publisher)        | localhost:8080/videogame/search/findByPublisher | ?publisher=\<*String*>   |
-| **GET** (Find by Platforms)        | localhost:8080/videogame/search/findByPlatforms | ?platforms=\<*String[]*> |
-| **POST**                           | localhost:8080/videogame                        |                          |
-| **PUT**                            | localhost:8080/videogame/{id}                   |                          |
-| **PATCH**                          | localhost:8080/videogame/{id}                   |                          |
-| **DELETE**                         | localhost:8080/videogame/{id}                   |                          |
+| **GET** (All)                      | localhost:8080/videogame                         |                          |
+| **GET** (By ID)                    | localhost:8080/videogame/{id}                    |                          |
+| **GET** (Find by Title)            | localhost:8080/videogame/search/findByTitle      | ?title=\<*String*>       |
+| **GET** (Find by Publisher)        | localhost:8080/videogame/search/findByPublisher  | ?publisher=\<*String*>   |
+| **GET** (Find by Platforms)        | localhost:8080/videogame/search/findByPlatforms  | ?platforms=\<*String[]*> |
+| **POST**                           | localhost:8080/videogame                         |                          |
+| **PUT**                            | localhost:8080/videogame/{id}                    |                          |
+| **PATCH**                          | localhost:8080/videogame/{id}                    |                          |
+| **DELETE**                         | localhost:8080/videogame/{id}                    |                          |
 
