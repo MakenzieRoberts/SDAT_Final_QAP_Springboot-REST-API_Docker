@@ -60,13 +60,13 @@ Sample JSON:    {
 
 |              Method                | URI                                              | Query Parameter          |
 | :--------------------------------: | :----------------------------------------------- | :----------------------- |
-| **GET** (All)                      | localhost:8080/video_game                        |                          |
-| **GET** (By ID)                    | localhost:8080/video_game/{id}                   |                          |
-| **GET** (Find by Title)            | localhost:8080/video_game/search/findByTitle     | ?title=\<*String*>       |
-| **GET** (Find by Publisher)        | localhost:8080/video_game/search/findByPublisher | ?publisher=\<*String*>   |
-| **GET** (Find by Platforms)        | localhost:8080/video_game/search/findByPlatforms | ?platforms=\<*String[]*> |
-| **POST**                           | localhost:8080/video_game                        |                          |
-| **PUT**                            | localhost:8080/video_game/{id}                   |                          |
-| **PATCH**                          | localhost:8080/video_game/{id}                   |                          |
-| **DELETE**                         | localhost:8080/video_game/{id}                   |                          |
+| **GET** (All)                      | localhost:8080/videogame                        |                          |
+| **GET** (By ID)                    | localhost:8080/videogame/{id}                   |                          |
+| **GET** (Find by Title)            | localhost:8080/videogame/search/findByTitle     | ?title=\<*String*>       |
+| **GET** (Find by Publisher)        | localhost:8080/videogame/search/findByPublisher | ?publisher=\<*String*>   |
+| **GET** (Find by Platforms)        | localhost:8080/videogame/search/findByPlatforms | ?platforms=\<*String[]*> |
+| **POST**                           | localhost:8080/videogame                        |                          |
+| **PUT**                            | localhost:8080/videogame/{id}                   |                          |
+| **PATCH**                          | localhost:8080/videogame/{id}                   |                          |
+| **DELETE**                         | localhost:8080/videogame/{id}                   |                          |
 
