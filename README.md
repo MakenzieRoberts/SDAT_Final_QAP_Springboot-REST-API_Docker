@@ -35,7 +35,7 @@ Design and implementation of a RESTful API for a single resource, employing the 
 
 | Entity Name  | Fields                                                               | Sample JSON                                                                    |
 | :----------: | :------------------------------------------------------------------- | :----------------------------------------------------------------------------- | 
-| Video_Games  | title(*String*) <br/> publisher(*String*) <br/> platforms(*String[]*)|{<br/>&emsp; "title": "Hades", <br/>&emsp; "publisher": "Supergiant Games", <br/>&emsp; "platforms": ["Nintendo Switch", "PlayStation 4", "PlayStation 5", "Xbox One", "Xbox Series X/S", "PC"] <br/> }                                            |
+| video_game   | title(*String*) <br/> publisher(*String*) <br/> platforms(*String[]*)|{<br/>&emsp; "title": "Hades", <br/>&emsp; "publisher": "Supergiant Games", <br/>&emsp; "platforms": ["Nintendo Switch", "PlayStation 4", "PlayStation 5", "Xbox One", "Xbox Series X/S", "PC"] <br/> }                                            |
 
 <!--  
 Unformatted Data:
