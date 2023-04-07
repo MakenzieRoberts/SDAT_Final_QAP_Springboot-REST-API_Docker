@@ -44,6 +44,30 @@ Design and implementation of a RESTful API for a single resource, employing the 
 
 ____________________________________________________________________________________________________________________
 
+### Running the Project in Docker
+
+To run the project in Docker, you will need to have Docker installed on your machine. If you don't have Docker installed, you can download it from the official website: https://www.docker.com/get-started
+
+Once you have Docker installed, follow these steps to run the project: 
+
+
+  1. Clone the project repository to your local machine:
+
+          git clone https://github.com/your-username/your-project.git
+
+  2. Navigate to the project directory:
+
+          cd your-project
+
+  3. Build the Docker image using the provided Dockerfile (Replace your-image-name with the name you want to give to the Docker image):
+
+          docker build -t your-image-name .
+
+  4. Run the Docker container using the following command:
+
+          docker run -p 8080:8080 your-image-name
+          
+____________________________________________________________________________________________________________________
 
 ### **Entity Information**
 
