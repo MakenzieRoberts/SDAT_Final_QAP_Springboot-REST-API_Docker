@@ -27,7 +27,21 @@ Design and implementation of a RESTful API for a single resource, employing the 
   <blockquote>
 </details>
   
+<details>
+  <summary><h3><strong>Screenshots</strong></h3></summary>
+  <br/>
   
+![Docker Screenshot](Screenshots/Docker_Screenshot.png)
+![Postman (GET) Screenshot](Screenshots/Postman_GET_Screenshot.png)
+![Postman (GET By ID) Screenshot](Screenshots/Postman_GET-By-ID_Screenshot.png)
+![Postman (GET By Field) Screenshot](Screenshots/Postman_GET-By-Field_Screenshot.png)
+![Postman (POST) Screenshot](Screenshots/Postman_POST_Screenshot.png)
+![Postman (PUT) Screenshot](Screenshots/Postman_PUT_Screenshot.png)
+![Postman (PATCH) Screenshot](Screenshots/Postman_PATCH_Screenshot.png)
+![Postman (DELETE) Screenshot](Screenshots/Postman_DELETE_Screenshot.png)
+
+</details>
+
 ____________________________________________________________________________________________________________________
 
 
